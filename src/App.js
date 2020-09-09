@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Home from './pages/Home'
+import SearchPage from './pages/SearchPage'
 import './App.css';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/search">
-            <h1>This is search page</h1>
+            <SearchPage />
           </Route>
           <Route path="/">
             <Home />

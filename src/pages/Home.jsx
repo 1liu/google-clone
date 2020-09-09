@@ -8,7 +8,7 @@ import {
 import AppsIcon from '@material-ui/icons/Apps';
 import { Avatar } from '@material-ui/core'
 import "./Home.css"
-import Search from './Search'
+import Search from '../components/Search'
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
       <div className="home__body">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google"></img>
         <div className="home__inputContainer">
-            <Search />
+            <Search/>
         </div>
       </div>
     </div>

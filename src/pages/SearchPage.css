@@ -1,0 +1,21 @@
+.searchPage__loge {
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+  z-index: 100;
+}
+
+.searchPage__header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchPage > .searchPage__header .search .search__input {
+  width: unset;
+  margin: unset;
+  margin-top: 0;
+  max-width: unset;
+}
