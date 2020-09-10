@@ -9,7 +9,7 @@ import './Search.css'
 
 const Search = ({ hideButton = false }) => {
   const [input, setInput] = useState('');
-  const [{ }, dispatch] = useStateValue();
+  const [state, dispatch] = useStateValue();
   const history = useHistory();
 
   const search = event => {
