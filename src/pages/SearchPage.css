@@ -19,3 +19,30 @@
   margin-top: 0;
   max-width: unset;
 }
+
+.searchPage__options {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+.searchPage__optionLeft a,
+.searchPage__optionRight a {
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+}
+.searchPage__optionLeft,
+.searchPage__optionRight {
+  display: flex;
+}
+
+.searchPage__optionRight{
+  margin-left: 30px;
+}
+
+.searchPage__option{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
